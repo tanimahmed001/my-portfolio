@@ -72,7 +72,7 @@ nav a {
     background-repeat: no-repeat;
     background-position: bottom right;
     width: 100%;
-    
+
 
 }
 
@@ -189,4 +189,26 @@ main {
     color: #474747;
     width: 100%;
     text-align: center;
+}
+
+.what-i-do {
+
+    padding: 0px 125px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#i-do-description {
+    width: 909px;
+}
+
+.i-do-container {
+    
+    width: 100%;
+    margin: auto;
+
+}
+.i-do-contenet{
+    display: flex;
+    justify-content: center;
 }
