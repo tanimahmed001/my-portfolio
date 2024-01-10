@@ -319,3 +319,90 @@ main {
 #cv-btn {
     padding: 50px 423px;
 }
+
+/* footer */
+footer {
+    background: #FFF8F3;
+}
+
+.footer-content {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 117px;
+    margin: 0 auto;
+    max-width: 1140px;
+    padding: 120px 0px 0px 0px;
+    
+
+}
+
+.connect-title {
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.connect-description {
+    width: 562px;
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    /* 175% */
+}
+
+.social-link a {
+    padding: 30px 24px 0px 0px;
+    margin-top: 30px;
+}
+
+.contact input {
+    margin-top: 28px;
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 349px 18px 30px;
+    width: 461px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: var(--White-Color, #FFF);
+    border: 0px;
+}
+
+.contact textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 365px 134px 30px;
+    width: 461px;
+    height: 180px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: var(--White-Color, #FFF);
+    border: 0px;
+
+}
+
+.contact button {
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: var(--White-Color, #FFF);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: 0px;
+    margin-bottom: 150px;
+}
