@@ -9,7 +9,7 @@
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    margin-top: 20px;
+    
 
 }
 
@@ -26,19 +26,42 @@ body {
     font-weight: 500;
     font-family: Open Sans;
     text-align: center;
-    padding: 18px 36px;
+    padding: 18px 3px;
     border-radius: 5px;
     width: 200px;
     height: 64px;
 
 }
 
+.primary-btn2 {
+    width: 160px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 30px;
+    
+
+}
+
+
+
 /* nav related style */
 
 nav {
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 30px;
+  
     margin: 0px 200px;
 }
 
@@ -46,6 +69,8 @@ nav {
     color: var(--Dark-01, #181818);
     font-size: 45px;
     font-weight: 800;
+    
+    
 }
 
 nav>ul {
@@ -70,10 +95,10 @@ nav a {
 
 /* Header related style */
 .header {
-    background-color: white;
-    background-image: url('/images/header_bg.png');
+    background: #FFF8F3;
+    background-image: url('/images/header_bg.png'), url('/images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right , bottom left;
     width: 100%;
 
 
@@ -139,7 +164,10 @@ main {
     padding: 125px;
 
     align-items: center;
-    margin-top: 50px;
+    margin-top: 130px;
+    border-radius: 10px;
+background: #FFF8F3;
+
 }
 
 .section-title {
@@ -199,7 +227,7 @@ main {
 
     padding: 0px 125px;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 130px;
 }
 
 #i-do-description {
@@ -333,7 +361,7 @@ footer {
     margin: 0 auto;
     max-width: 1140px;
     padding: 120px 0px 0px 0px;
-    
+
 
 }
 
@@ -405,4 +433,10 @@ footer {
     line-height: normal;
     border: 0px;
     margin-bottom: 150px;
+}
+
+#copyrights{
+    text-align: center;
+    padding: 10px;
+    color: #FD6E0A;
 }
